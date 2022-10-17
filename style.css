@@ -11,14 +11,14 @@ html, body {
     height: 100%;
 }
 
-.parent {
+body {
     height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.child {
+main {
     width: 270px;
     height: 420px;
     background-color: var(--white);
@@ -33,13 +33,14 @@ img {
     margin: 14px 14px 20px 14px;
 }
 
-h3, p {
+h1, p {
     margin: 0 20px;
 }
 
-h3 {
+h1 {
     color: var(--dark-blue);
     font-weight: 700;
+    font-size: 20px;
 }
 
 p {
